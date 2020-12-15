@@ -1,0 +1,186 @@
+ .{
+    box-sizing: border box;
+ }
+
+  body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2em;
+    color: #333333;
+    background-color: white;
+
+}
+	h1{
+  font-size: 4em;
+  
+  font-weight: bold;
+  color: blue;
+  text-shadow: 2px 2px red;
+}  
+ 
+h4{
+    font-size: 20px;
+    color: white;
+
+}
+nav{
+     display: block;
+
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+
+
+
+}
+
+       
+nav a {
+        text-decoration: none;
+        padding-right: 10px;
+  
+}
+nav li{
+	    display: inline;
+}
+nav a:link{
+           color: white;
+}
+nav a:visited{
+              color: black;
+}
+nav a:hover{
+             color: yellow;
+}
+nav a:active{
+              color: green;
+}
+
+
+footer{
+       background-color: green;
+       text-align: center;
+       color: white;
+       
+
+}
+
+
+.icons .fa{
+    font-size: 5em;
+    color: #35cad2;
+}/*This is logo section*/
+.logo{
+      margin: 0 auto;
+      display:block;
+
+}
+.header img{
+        margin: 0 auto;
+        display: block;
+}
+
+        
+
+
+nav ul{
+       text-align: center;
+       padding: 8px;
+}
+nav li{
+        display: inline;
+        background: -background-color: #c6c6c6;
+        padding: 8px;
+        border-radius: 10px;
+}
+
+nav{
+    background-color: #efefef;
+}
+
+body{
+     margin: 10px 0;
+     background-image: url("paper.gif");
+
+}
+
+
+
+     
+nav ul{
+       text-align: right;
+       padding-top:  10px;
+       padding-right: 40px
+}
+
+             
+           
+
+/*This is main section*/
+main{
+      max-width: 800px;
+      margin: 0 auto;
+      padding-top: 100px;
+      padding-bottom: 100px;
+
+}
+
+
+.home-hero {
+    background-image: url(images/header.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: #003333;
+    padding: 10px 10px 10px 30px;
+    
+
+}
+img{
+     display:block;
+     max-width:100%;
+     height:auto;
+     margin:0 auto;
+     border-radius: 50px;
+
+}
+
+
+     
+#mobile{
+        display: none;
+}
+
+
+
+/**********CSS Tablet***********/
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size: 2em;
+	}	
+}
+
+
+}
+/*CSS for smart phonee*/
+@media only screen and (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	}	
+}
+
+}
+#desktop{
+    display:none;
+  }
+  #mobile{
+    display:inline;
+  }
+  
+  
